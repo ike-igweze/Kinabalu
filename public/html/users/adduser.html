@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add User</title>
+    <link rel="stylesheet" href="../../css/styles.css" />
+  </head>
+  <body>
+    <h1>Add User</h1>
+    <form action="adduser" method="post">
+        <label for="username">Username: </label>
+        <input id="username" name="username" required />
+        <label for="password">Password: </label>
+        <input id="password" name="password" required />
+        <label for="userforename">Forename: </label>
+        <input id="userforename" name="userforename" required />
+        <label for="usersurname">Surname: </label>
+        <input id="usersurname" name="usersurname" required />
+        <!-- <label for="userAccounts">Number of Accounts: </label>
+        <input
+            id="userAccounts"
+            name="userAccounts"
+            value="1"
+            min="1"
+            max="2"
+            required
+        /> -->
+        <!-- <label for="userAccountType">Account Type: </label>
+        <select id="userAccountType" name="userAccountType" required>
+            <option value="Savings">Support</option>
+            <option value="Current">Client</option>
+        </select> -->
+
+      <br /><button>Add user</button>
+    </form>
+  </body>
+</html>
